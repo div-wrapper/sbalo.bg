@@ -1,0 +1,9 @@
+<?php $__env->startSection('head'); ?>
+	<title>Начало | Специализирана Болница за Актвно Лечение по Онкология "Свети Мина" ЕООД гр. Благоевград</title>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+	<p>dcb</p>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

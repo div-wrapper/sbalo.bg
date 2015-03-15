@@ -1,0 +1,37 @@
+<?php $__env->startSection('head'); ?>
+	<title>Актуално | Специализирана Болница за Актвно Лечение по Онкология "Свети Мина" ЕООД гр. Благоевград</title>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+	<div class="col-sm-10 col-sm-offset-1 news_wrapper">
+		<?php /* */$counter = 0/* */ ?>
+	<?php foreach($news as $new): ?>
+		<?php if(($counter%2) == 0 ): ?>
+		<div class="news_single col-xs-12 col-sm-6 col-md-3 col-lg-4 col-lg-offset-1">
+		<?php else: ?>
+		<div class="news_single col-xs-12 col-sm-6 col-md-3 col-lg-4 col-lg-offset-2">
+		<?php endif; ?>
+			<div id="ns_title">
+				<p>
+					<?php echo $new->title; ?>
+
+				</p>
+			</div>
+			<div id="ns_image">
+				<img src="<?php echo e($new->img); ?>">
+			</div>
+			<div id="ns_preview">
+				<p>
+					<?php echo $new->novina; ?>
+
+				</p>
+			</div>
+			<div class="custom_hover">Виж повече</div>
+		</div>
+		<?php /* */$counter++/* */ ?>
+	<?php endforeach; ?>
+	</div>
+	<div class="clearfix"></div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

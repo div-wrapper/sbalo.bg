@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--TEST-->
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/styles.css') }}">
