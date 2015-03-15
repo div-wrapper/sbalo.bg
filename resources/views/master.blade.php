@@ -19,7 +19,6 @@
 		<img src="{{ URL::asset('img/ikoni.png') }}">
 	</div>
 	<header>
-		<!--omg wtf-->
 		<div class="navbar navbar-default main-navigation col-sm-12">
 	        <div class="container-fluid">
 	            <!-- Brand and toggle get grouped for better mobile display -->
