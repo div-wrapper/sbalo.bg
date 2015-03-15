@@ -18,6 +18,7 @@
 		<img src="{{ URL::asset('img/bolnica.png') }}">
 		<img src="{{ URL::asset('img/ikoni.png') }}">
 	</div>
+	
 	<header>
 		<div class="navbar navbar-default main-navigation col-sm-12">
 	        <div class="container-fluid">
