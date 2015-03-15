@@ -1,0 +1,389 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+
+/*NORMALIZER END*/
+/*-------------------------------------------------FONT FACE-------------------------------------------------------*/
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/Montserrat-Regular-webfont.eot');
+    src: url('../fonts/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/Montserrat-Black-webfont.eot');
+    src: url('../fonts/Montserrat-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Black-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat-Black-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/Montserrat-Bold-webfont.eot');
+    src: url('../fonts/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat-Bold-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('../fonts/Montserrat-Hairline-webfont.eot');
+    src: url('../fonts/Montserrat-Hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Hairline-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat-Hairline-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Hairline-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/Montserrat-Light-webfont.eot');
+    src: url('../fonts/Montserrat-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat-Light-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.content{
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 73px;
+  background: linear-gradient(135deg, #157b66 0%, #78A976 100%) repeat scroll 0% 0% transparent;
+  border-left: 3px solid #0a3a30;
+  border-right: 3px solid #0a3a30;
+  position: relative;
+  margin-top: 204px;
+}
+.clearfix{
+  clear: both;
+}
+body{
+  background-color: #F7F7F9;
+  font-family: "montserratregular", Arial, sans-serif;
+}
+/*-------------------------------------HOME-------------------------------------------*/
+
+.navbar li:hover > ul{
+  display: block;
+}
+.navbar{
+  border-radius: 0px;
+}
+.home_intro{
+  text-align: justify;
+}
+.dropdown-menu{
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 0px 0px;
+}
+.dropdown-menu a{
+  padding: 10px 15px !important;
+}
+.dropdown-menu .dropdown-menu{
+  top: -2% ;
+  left: 100%;
+  max-width: 400px;
+  height: auto;
+  min-width: 400px;
+}
+.dropdown-menu .dropdown-menu a{
+  white-space: normal;
+}
+.hospital_info{
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 5%;
+  display: block;
+  background: linear-gradient(135deg, #157b66 0%, #78A976 100%) repeat scroll 0% 0% transparent;
+  border-left: 3px solid #0a3a30;
+  border-right: 3px solid #0a3a30;
+  position: fixed;top:0px;z-index: 0;
+}
+.hospital_info img{
+  display: inline-block;
+  max-width: 33%;
+}
+.hospital_info p{
+  display: inline-block;
+  max-width: 300px;
+}
+#singlePageNavigation{
+  float: none;margin: 0 auto;text-align: center;
+}
+#singlePageNavigation > li{
+  float: none;
+  display: inline-block;
+}
+.main-navigation{
+  position: relative;
+  z-index: 9998;
+  max-width: 90%;
+  margin-left: 5%;
+  border-left: 0px solid #0a3a30;
+  border-right: 0px solid #0a3a30;
+  height: 100px;
+  line-height: 100px;
+  font-family: 'montserratregular';
+  font-size: 14px;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  border: 1px solid;
+  clear: both;
+}
+header{
+  background: transparent;
+}
+
+/*--------------------------------------------------------------NEWS--------------------------------------------------------------*/
+.news_single{
+  height: 600px;
+  border:1px solid;
+  margin-bottom: 50px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  box-shadow: 2px 2px 5px #020030;
+}
+.news_single_large{
+  position: absolute;
+  z-index: 9999;
+}
+.custom_hover{
+  display: none;
+  position: absolute;
+  top:0px;
+  height: 100%;
+  left: 0px;
+  background: rgba(70,177,249, 0.5);
+  cursor: pointer;
+  text-align: center;
+  line-height: 400px;
+  font-weight: bold;
+  font-size: Arial, sans-serif;
+  font-size: 2vw;
+  color: #fff;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  text-decoration: underline;
+}
+#ns_image{
+  height: 280px;
+  margin-top: 20px;
+}
+#ns_image img{
+  max-height: 260px;
+  display: block;
+  margin: 0 auto;
+}
+#ns_preview{
+  height: 218px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#ns_preview p{
+  padding: 15px;
+}
+#ns_title{
+  height: 50px;
+}
+#ns_title p{
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+}
