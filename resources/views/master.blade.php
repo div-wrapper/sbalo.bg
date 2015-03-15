@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--TEST-->
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/styles.css') }}">
@@ -20,6 +19,7 @@
 		<img src="{{ URL::asset('img/ikoni.png') }}">
 	</div>
 	<header>
+		<!--a-->
 		<div class="navbar navbar-default main-navigation col-sm-12">
 	        <div class="container-fluid">
 	            <!-- Brand and toggle get grouped for better mobile display -->
