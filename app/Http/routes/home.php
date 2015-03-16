@@ -9,4 +9,12 @@ Route::group(['before' => 'home'], function(){
     	'as' => '/',
     	'uses' => 'MainController@index'
     	]);
+    Route::get('home/contacts',[
+    	'as' => 'home/contacts',
+    	'uses' => 'MainController@contacts'
+    	]);
+    Route::get('home/map',[
+    	'as' => 'home/map',
+    	'uses' => 'MainController@map'
+    	]);
 });

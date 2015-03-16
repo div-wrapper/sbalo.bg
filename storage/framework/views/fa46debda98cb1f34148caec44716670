@@ -8,9 +8,9 @@
 		<?php /* */$counter = 0/* */ ?>
 	<?php foreach($news as $new): ?>
 		<?php if(($counter%2) == 0 ): ?>
-		<div class="news_single col-xs-12 col-sm-6 col-md-3 col-lg-4 col-lg-offset-1">
+		<div class="news_single col-xs-12 col-sm-5 col-md-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-0">
 		<?php else: ?>
-		<div class="news_single col-xs-12 col-sm-6 col-md-3 col-lg-4 col-lg-offset-2">
+		<div class="news_single col-xs-12 col-sm-5 col-md-3 col-lg-4 col-lg-offset-2 col-md-offset-1 col-sm-offset-2">
 		<?php endif; ?>
 			<div id="ns_title">
 				<p>

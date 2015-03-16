@@ -12,7 +12,11 @@
 */
 Route::get('structure', 'StructureController@index');
 foreach(File::allFiles(__DIR__.'/routes') as $partial){
-
-    require_once $partial->getPathname();
+	if ($partial) {
+    	require_once $partial->getPathname();
+	}else{
+		View::make('pages/404');
+	}
 
 }
+

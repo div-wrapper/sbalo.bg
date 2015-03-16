@@ -13,5 +13,10 @@ class MainController extends Controller {
 		$pages = Pages::get();
 		return view('pages/home/home', compact('pages'));
 	}
-	
+	public function contacts(){
+		return view('pages/home/contacts');
+	}
+	public function map(){
+		return view('pages/home/map');
+	}
 }

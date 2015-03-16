@@ -16,10 +16,18 @@ class StructureController extends Controller {
 
 	public function first_inner($id){
 		$first_inner = DB::table('structure')->where('otdel', ''.$id.'')->get();
-		return view('pages/structure/structure_first', compact('first_inner'));
+		if ($first_inner) {
+			return view('pages/structure/structure_first', compact('first_inner'));
+		}else{
+			return view('pages/404');
+		}
 	}
 	public function second_inner($id1, $id2){
 		$second_inner = DB::table('structure')->where('otdel', $id2)->get();
-		return view('pages/structure/structure_second', compact('second_inner'));
+		if ($second_inner) {	
+			return view('pages/structure/structure_second', compact('second_inner'));
+		}else{
+			return view('pages/404');
+		}
 	}
 }
